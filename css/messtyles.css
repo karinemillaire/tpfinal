@@ -1,0 +1,110 @@
+/*GÉNÉRIQUE*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*BASE*/
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*ELEMENTS*/
+
+h2 {
+    font: bold 2.12rem "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.cta {
+    background-color: #FF00F2;
+    color: #F6F7FA;
+    text-decoration: none;
+    font: bold 1.12rem "Inria Sans", sans-serif;
+    text-transform: uppercase;
+
+}
+
+/*SECTIONS*/
+
+/*Header*/
+
+.header {
+    background-color: #081E99;
+    padding: 20px 0;
+}
+
+.header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #F6F7FA;
+    font: bold 1.12rem "Inria Sans", sans-serif;
+}
+
+.menu a:hover {
+    color: #FF00F2;
+}
+
+
+/*Hero*/
+
+.hero {
+    height: 810px;
+    background: url(../images/hero.jpg) no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.hero .wrapper {
+    height: 810px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.boite {
+    background-color: #FF00F2;
+    opacity: 70%;
+    width: 417px;
+    height: 164px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.boite h1 {
+    color: #F6F7FA;
+    font: bold 1.88rem "Merriweather Sans", sans-serif;
+   
+}
