@@ -40,6 +40,12 @@ h2 {
 
 }
 
+.cta:hover {
+    background-color: #F6F7FA;
+    color: #FF00F2;
+
+}
+
 /*SECTIONS*/
 
 /*Header*/
@@ -130,6 +136,7 @@ h2 {
     color: #F6F7FA;
 }
 
-.accroche cta{
+.accroche .cta{
     padding: 10px 30px;
+    border-radius: 8px;
 }
