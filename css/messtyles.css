@@ -28,6 +28,7 @@ h2 {
     font: bold 2.12rem "Merriweather Sans", sans-serif;
     font-optical-sizing: auto;
     text-transform: uppercase;
+    color: #F6F7FA;
     margin: 0px;
 }
 
@@ -113,30 +114,69 @@ h2 {
 .boite h1 {
     color: #F6F7FA;
     font: bold 1.88rem "Merriweather Sans", sans-serif;
-   
+
 }
 
 /*accroche*/
 
-.accroche{
+.accroche {
     background-color: #081E99;
     height: 132.47px;
 }
 
-.accroche .wrapper{
+.accroche .wrapper {
     height: 132.47px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.accroche p{
+.accroche p {
     margin: 0;
     font: normal 1.88rem "Merriweather Sans", sans-serif;
     color: #F6F7FA;
 }
 
-.accroche .cta{
+.accroche .cta {
     padding: 10px 30px;
     border-radius: 8px;
+}
+
+
+/*Produits*/
+
+.produits {
+    background-color: #000E5F;
+    height: 857px;
+}
+
+.produits h2 {
+    padding-top: 45px;
+}
+
+.enfants {
+    display: flex;
+    gap: 13px;
+}
+
+.adultes {
+    display: flex;
+    gap: 13px;
+}
+
+.produits h3 {
+    font: bold 1.37rem "Inria Sans", sans-serif;
+    color: #F6F7FA;
+}
+
+.produits .cta {
+    font-size: 1.5rem;
+    padding: 15px 40px;
+    border-radius: 8px;
+}
+
+.voir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
