@@ -172,6 +172,8 @@ h2 {
 .produits h3 {
     font: bold 1.37rem "Inria Sans", sans-serif;
     color: #F6F7FA;
+    padding-top: 20px;
+    padding-bottom: 30px;
     margin: 0;
 }
 
