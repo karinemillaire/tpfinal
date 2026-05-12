@@ -393,12 +393,17 @@ h2 {
 .produit-vedette img {
     width: 510px;
     height: 330.67px;
+    border: solid 10px transparent;
+}
+
+.produit-vedette img:hover {
     border: solid 10px #FF00F2;
 }
 
-.vedette-contenu{
-    padding-left: 40px;
+.vedette-contenu {
+    padding-left: 10px;
 }
+
 .vedette-contenu p {
     font: normal 1.12rem "Inria Sans", sans-serif;
     color: #F6F7FA;
@@ -431,4 +436,66 @@ h2 {
 
 .produits2 {
     background-color: #000E5F;
+}
+
+.fiche {
+    background-color: #0026FF;
+    padding: 60px 0;
+}
+
+.fiche p {
+    font: normal 1rem "Inria Sans", sans-serif;
+    color: #F6F7FA;
+    text-align: center;
+}
+
+.fiche h3 {
+    color: #F6F7FA;
+    font-family: "Inria Sans", sans-serif;
+}
+
+.fiche a {
+    color: #F6F7FA;
+    text-decoration: none;
+    font: bold 1.12rem "Inria Sans", sans-serif;
+}
+
+.fiche a:hover{
+    color:#FF00F2;
+}
+
+.fiche-contenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.fiche img {
+    width: 510px;
+    height: 370px;
+    border: solid 10px #FF00F2;
+}
+
+.fiche .wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.recommendations {
+    background-color: #000E5F;
+    padding: 40px 0;
+}
+
+.recommendations h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 20px;
 }
