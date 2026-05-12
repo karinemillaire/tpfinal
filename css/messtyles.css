@@ -199,17 +199,18 @@ h2 {
     color: #FF00F2;
 }
 
-.sections{
+.sections {
     padding-bottom: 30px;
     display: flex;
     gap: 20px;
 }
 
-.card{
+.card {
     position: relative;
     overflow: hidden;
 
 }
+
 .card-content p {
     color: #F6F7FA;
     font: normal 0.87rem "Inria Sans", sans-serif;
@@ -221,16 +222,16 @@ h2 {
     display: block;
 }
 
-.card:hover .card-content{
+.card:hover .card-content {
     transform: translateY(0%);
 }
 
-.card-content{
+.card-content {
     text-align: center;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);    
+    background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 100%;
     display: flex;
@@ -323,6 +324,7 @@ h2 {
 
 .footer {
     background-color: #0026FF;
+    height: 188px;
 }
 
 .footer .socials {
@@ -352,7 +354,7 @@ h2 {
     justify-content: center;
     align-items: center;
     color: #F6F7FA;
-     margin-top: 30px;
+    margin-top: 30px;
 
 }
 
@@ -371,4 +373,62 @@ h2 {
     color: #F6F7FA;
     padding-left: 40px;
     margin-bottom: 20px;
+}
+
+
+/*produit-vedette*/
+
+.produit-vedette {
+    padding: 70px 0;
+    background-color: #0026FF;
+}
+
+.produit-vedette .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.produit-vedette img {
+    width: 510px;
+    height: 330.67px;
+    border: solid 10px #FF00F2;
+}
+
+.vedette-contenu{
+    padding-left: 40px;
+}
+.vedette-contenu p {
+    font: normal 1.12rem "Inria Sans", sans-serif;
+    color: #F6F7FA;
+}
+
+.vedette-contenu h1 {
+    font: bold 2.12rem "Merriweather Sans", sans-serif;
+    text-transform: uppercase;
+    color: #F6F7FA;
+}
+
+/*produits2 */
+
+.first-row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.second-row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+
+}
+
+.produits2 {
+    background-color: #000E5F;
 }
