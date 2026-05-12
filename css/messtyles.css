@@ -66,6 +66,10 @@ h2 {
     justify-content: space-between;
 }
 
+.logo {
+    height: 60px;
+    width: auto;
+}
 
 .menu {
     display: flex;
@@ -177,6 +181,14 @@ h2 {
     margin: 0;
 }
 
+.card-content h3 {
+    font: bold 1.37rem "Inria Sans", sans-serif;
+    color: #F6F7FA;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
 .produits .cta {
     font-size: 1.5rem;
     padding: 15px 40px;
@@ -217,6 +229,7 @@ h2 {
     margin: 0;
 
 }
+
 
 .card img {
     display: block;
@@ -396,7 +409,7 @@ h2 {
     border: solid 10px transparent;
 }
 
-.produit-vedette img:hover {
+*/ .produit-vedette img:hover {
     border: solid 10px #FF00F2;
 }
 
@@ -460,8 +473,8 @@ h2 {
     font: bold 1.12rem "Inria Sans", sans-serif;
 }
 
-.fiche a:hover{
-    color:#FF00F2;
+.fiche a:hover {
+    color: #FF00F2;
 }
 
 .fiche-contenu {
@@ -498,4 +511,11 @@ h2 {
     justify-content: center;
     align-self: center;
     gap: 20px;
+}
+
+.card-content p {
+    color: #F6F7FA;
+    font: normal 0.87rem "Inria Sans", sans-serif;
+    margin: 0;
+
 }
