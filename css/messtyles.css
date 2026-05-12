@@ -42,12 +42,14 @@ h2 {
     text-decoration: none;
     font: bold 1.12rem "Inria Sans", sans-serif;
     text-transform: uppercase;
-
+    transition: all 0.4s ease-out;
 }
 
 .cta:hover {
     background-color: #F6F7FA;
     color: #FF00F2;
+    box-shadow: 0 0 15px #fff;
+    transform: scale(1.2);
 
 }
 
@@ -322,6 +324,7 @@ h2 {
     padding: 15px 40px;
     border-radius: 8px;
     margin-bottom: 50px;
+
 }
 
 .courriel {
@@ -357,6 +360,10 @@ h2 {
     align-items: center;
 }
 
+.contenu a {
+    text-decoration: none;
+}
+
 .contenu span {
     width: 46px;
     height: 46px;
@@ -368,6 +375,7 @@ h2 {
     align-items: center;
     color: #F6F7FA;
     margin-top: 30px;
+    text-decoration: none;
 
 }
 
@@ -375,6 +383,7 @@ h2 {
     color: #FF00F2;
     border: solid 2px #FF00F2;
 }
+
 
 .footer .wrapper {
     display: flex;
@@ -409,7 +418,7 @@ h2 {
     border: solid 10px transparent;
 }
 
-*/ .produit-vedette img:hover {
+ .produit-vedette img:hover {
     border: solid 10px #FF00F2;
 }
 
@@ -456,6 +465,8 @@ h2 {
     padding: 60px 0;
 }
 
+
+/*Fiche*/
 .fiche p {
     font: normal 1rem "Inria Sans", sans-serif;
     color: #F6F7FA;
